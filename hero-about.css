@@ -1,0 +1,248 @@
+   
+                                  /* <!-- rafa houssam's part --> */
+   body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #2F4A60; 
+    color: white;
+    overflow-x: auto;
+   
+    font-family: "Poppins", sans-serif;  
+}
+
+.main-container {
+   
+    height: 487px;
+    position: absolute;
+    top: 100px;
+    left: 156px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+
+
+.left-section {
+    width: 60%;
+    text-align: left;
+}
+
+
+.left-section h1 {
+font-size: 60px;
+color: white;
+
+}
+
+.left-section h1 .curly-brace {
+color: #F8CD6B; 
+
+}
+
+.left-section p {
+    font-size: 18px;
+    color: #C4C4C4;
+    margin-top: 10px;
+}
+
+.left-section .button {
+    background-color: #F8CD6B;
+    color: white;
+    padding: 15px 30px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    transition: all 0.3s ease; 
+}
+
+
+.button:hover {
+background-color: #ebb842; 
+}
+
+
+
+.right-section {
+width: 35%;
+position: relative; 
+text-align: center;
+margin-top: 200px;
+margin-right: 10px;
+}
+
+.time-location-container {
+margin-top: 310px; 
+text-align: center; 
+}
+
+
+.hourglass-image {
+    width: 273px;
+    height: 285px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+
+.time-row {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+.time-slot {
+    width: 100px;
+    height: 54px;
+    border-radius: 15px;
+    background-color: #F8CD6B;
+    color: black;
+    text-align: center;
+    line-height: 54px;
+    font-weight: bold;
+}
+.time-slot:hover{
+    background-color: #e9b43b;
+    cursor:default;
+
+
+}
+
+.location,
+.date {
+    font-size: 16px;
+    color: white;
+    padding: 5px;
+
+}
+
+
+
+    
+    .about-container h2 {
+        font-size: 36px;
+        font-weight: 600;
+        color: #fff;
+        
+    }
+
+    .about-container p {
+        font-size: 18px;
+        font-weight: 400;
+        color: #d0d0d0;
+        line-height: 1.5;
+        width: 70%;
+        margin: 20px auto;
+    }
+
+   
+    .corner-image {
+        position: absolute;
+        width: 50px;
+        height: 50px;
+    }
+
+   
+
+.about-container .corner-icon.top-left {
+position: absolute;
+top: 820px;  
+left: 90px;
+}
+
+.about-container .corner-icon.top-right {
+position: absolute;
+top: 820px;  /* Adjust top positioning */
+left: 1020px;
+}
+
+.about-container .corner-icon.bottom-left {
+position: absolute;
+top: 1220px;  /* Adjust top positioning */
+left: 120px; /* Adjust left positioning */
+}
+
+.about-container .corner-icon.bottom-right {
+position: absolute;
+top: 1320px;  
+left: 1020px; 
+}
+
+    .about-container {
+
+width: 100%;
+height: 400px; 
+text-align: center;
+padding-top: 60px; 
+margin-top: 800px; 
+}
+
+
+    /* About Us Section Container */
+    .about-container .content {
+        
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+        position: relative;
+        display: inline-block;
+        background-color: #2F4A60 ; 
+        padding: 10px;
+        border-radius: 10px;
+        width: 60%;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+         border: #F8CD6B solid 1px ;
+         border-radius: 15px;
+
+    }
+
+    /* Responsive */
+    @media screen and (max-width: 768px) {
+        .about-container {
+            height: auto;
+            padding-top: 20px;
+        }
+
+        .about-container .content {
+            width: 90%;
+        }
+
+        .about-container h2 {
+            font-size: 28px;
+        }
+
+        
+          
+
+        .corner-image {
+            width: 40px;
+            height: 40px;
+        }
+    }
+   
+    .content h2 {
+display: flex;
+align-items: center;
+margin-left:270px;
+font-weight: bold;
+
+}
+
+.content h2 img {
+margin-left: 10px; 
+}
+.highlight{
+font-weight: bold; 
+color: rgb(229, 233, 41); 
+font-size: larger;
+
+}
+                                       /* end of rafa houssam's part */
