@@ -1,5 +1,7 @@
    
                                   /* <!-- rafa houssam's part --> */
+ @import url('https://fonts.cdnfonts.com/css/itc-eras-ultra'); 
+
    body {
     margin: 0;
     padding: 0;
@@ -8,7 +10,7 @@
     color: white;
     overflow-x: auto;
    
-    font-family: "Poppins", sans-serif;  
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
 }
 
 .main-container {
@@ -20,6 +22,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;   
+    font-family: 'ITC Eras Demi';
 }
 
 
@@ -48,7 +51,7 @@ color: #F8CD6B;
 
 .left-section .button {
     background-color: #F8CD6B;
-    color: white;
+    color: rgb(0, 0, 0);
     padding: 15px 30px;
     font-size: 20px;
     border: none;
@@ -219,6 +222,8 @@ margin-top: 800px;
 
         .about-container h2 {
             font-size: 28px;
+          
+
         }
 
         
@@ -235,6 +240,8 @@ display: flex;
 align-items: center;
 margin-left:330px;
 font-weight: bold;
+font-family: 'ITC Eras Demi';
+
 
 }
 
