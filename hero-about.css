@@ -43,7 +43,7 @@ body {
 
 .left-section .button {
   background-color: #F8CD6B;
-  color: rgb(0, 0, 0);
+  color: #2F4A60;
   padding: 15px 30px;
   font-size: 20px;
   border: none;
@@ -94,7 +94,7 @@ body {
   height: 54px;
   border-radius: 15px;
   background-color: #F8CD6B;
-  color: black;
+  color: #2F4A60;
   text-align: center;
   line-height: 54px;
   font-weight: bold;
