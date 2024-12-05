@@ -21,6 +21,7 @@ body {
 }
 
 .header {
+    
    margin-bottom: 50px;
    margin-left: 100px;
     
@@ -30,6 +31,9 @@ body {
 }
 
 .header img {
+    position: relative;
+    top: 33px;
+    left: 115px;
     width: 30px;
     height: 30px;
 }
