@@ -1,0 +1,56 @@
+body {
+    font-family: 'ITC Eras Demi';
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2F4A60; 
+    min-height: 100vh;
+}
+
+.event-schedule {
+    text-align: center;
+    background-color: #2F4A60;
+    border-radius: 15px;
+    padding: 10px 10px;
+    max-width: 600px;
+    width: 100%;
+    margin-right: 100px;
+    
+}
+
+.header {
+   margin-bottom: 50px;
+   margin-left: 100px;
+    
+    gap: 10px;
+    color: #f9f9f9;
+
+}
+
+.header img {
+    width: 30px;
+    height: 30px;
+}
+
+.header h2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.timeline {
+    background-color: #2F4A60;
+    border-radius: 30px;
+    width:600px;
+    height: 20px;
+    margin-left: 0px;
+    margin-right: 160px;
+
+}
+.timeline img{
+    width: 700px;
+    margin-right: 200px;
+
+}
+
